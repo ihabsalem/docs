@@ -1,68 +1,123 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Chatwiser Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0066FF",
+    "light": "#3385FF",
+    "dark": "#0047B3"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "English",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "en/index",
+              "en/quickstart",
+              "en/platform-overview"
             ]
           },
           {
-            "group": "Customization",
+            "group": "WhatsApp Business",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "en/whatsapp/setup",
+              "en/whatsapp/automation",
+              "en/whatsapp/templates",
+              "en/whatsapp/campaigns",
+              "en/whatsapp/analytics"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "E-commerce Integration",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "en/ecommerce/setup",
+              "en/ecommerce/products",
+              "en/ecommerce/orders",
+              "en/ecommerce/payments",
+              "en/ecommerce/analytics"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Marketing Tools",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "en/marketing/campaigns",
+              "en/marketing/automation",
+              "en/marketing/analytics",
+              "en/marketing/integrations"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "العربية",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "البدء",
             "pages": [
-              "api-reference/introduction"
+              "ar/index",
+              "ar/quickstart",
+              "ar/platform-overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "واتساب للأعمال",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "ar/whatsapp/setup",
+              "ar/whatsapp/automation",
+              "ar/whatsapp/templates",
+              "ar/whatsapp/campaigns",
+              "ar/whatsapp/analytics"
+            ]
+          },
+          {
+            "group": "تكامل التجارة الإلكترونية",
+            "pages": [
+              "ar/ecommerce/setup",
+              "ar/ecommerce/products",
+              "ar/ecommerce/orders",
+              "ar/ecommerce/payments",
+              "ar/ecommerce/analytics"
+            ]
+          },
+          {
+            "group": "أدوات التسويق",
+            "pages": [
+              "ar/marketing/campaigns",
+              "ar/marketing/automation",
+              "ar/marketing/analytics",
+              "ar/marketing/integrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "WhatsApp API",
+            "pages": [
+              "api-reference/whatsapp/messages",
+              "api-reference/whatsapp/templates",
+              "api-reference/whatsapp/media"
+            ]
+          },
+          {
+            "group": "E-commerce API",
+            "pages": [
+              "api-reference/ecommerce/products",
+              "api-reference/ecommerce/orders",
+              "api-reference/ecommerce/customers"
             ]
           }
         ]
@@ -71,13 +126,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Platform",
+          "href": "https://chatwiser.co",
+          "icon": "home"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://chatwiser.co/blog",
           "icon": "newspaper"
         }
       ]
@@ -91,32 +146,31 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@chatwiser.co"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://chatwiser.co/dashboard"
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
     }
+  },
+  "seo": {
+    "defaultTitle": "Chatwiser Documentation - WhatsApp Business & E-commerce Platform",
+    "titleTemplate": "%s | Chatwiser Docs"
+  },
+  "footerSocials": {
+    "twitter": "https://twitter.com/chatwiser",
+    "linkedin": "https://linkedin.com/company/chatwiser",
+    "facebook": "https://facebook.com/chatwiser"
   }
 }
