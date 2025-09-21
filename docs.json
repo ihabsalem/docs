@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Chatwiser Documentation",
+  "name": "chatwiser Documentation",
   "colors": {
     "primary": "#0066FF",
     "light": "#3385FF",
@@ -17,37 +17,87 @@
             "group": "Getting Started",
             "pages": [
               "en/index",
+              "en/why-chatwiser",
               "en/quickstart",
-              "en/platform-overview"
+              "en/platform-overview",
+              "en/pricing-plans"
             ]
           },
           {
-            "group": "WhatsApp Business",
+            "group": "Account Setup",
             "pages": [
-              "en/whatsapp/setup",
-              "en/whatsapp/automation",
-              "en/whatsapp/templates",
-              "en/whatsapp/campaigns",
-              "en/whatsapp/analytics"
+              "en/setup/account-creation",
+              "en/setup/first-login",
+              "en/setup/basic-configuration",
+              "en/setup/team-management"
             ]
           },
           {
-            "group": "E-commerce Integration",
+            "group": "Smart Communication Hub",
             "pages": [
-              "en/ecommerce/setup",
-              "en/ecommerce/products",
-              "en/ecommerce/orders",
-              "en/ecommerce/payments",
-              "en/ecommerce/analytics"
+              "en/communication/bot-manager",
+              "en/communication/visual-flow-builder",
+              "en/communication/ai-integration",
+              "en/communication/comment-manager",
+              "en/communication/live-chat",
+              "en/communication/broadcasting"
             ]
           },
           {
-            "group": "Marketing Tools",
+            "group": "E-commerce Hub",
             "pages": [
-              "en/marketing/campaigns",
-              "en/marketing/automation",
-              "en/marketing/analytics",
-              "en/marketing/integrations"
+              "en/ecommerce/online-store",
+              "en/ecommerce/product-management",
+              "en/ecommerce/order-processing",
+              "en/ecommerce/payment-gateways",
+              "en/ecommerce/woocommerce-integration",
+              "en/ecommerce/in-chat-shopping"
+            ]
+          },
+          {
+            "group": "Publishing Hub",
+            "pages": [
+              "en/publishing/social-posting",
+              "en/publishing/content-calendar",
+              "en/publishing/auto-posting",
+              "en/publishing/multi-platform"
+            ]
+          },
+          {
+            "group": "Integration Hub",
+            "pages": [
+              "en/integrations/email-marketing",
+              "en/integrations/sms-providers",
+              "en/integrations/productivity-tools",
+              "en/integrations/custom-api",
+              "en/integrations/third-party"
+            ]
+          },
+          {
+            "group": "Analytics & Reports",
+            "pages": [
+              "en/analytics/dashboard",
+              "en/analytics/performance-metrics",
+              "en/analytics/roi-tracking",
+              "en/analytics/custom-reports"
+            ]
+          },
+          {
+            "group": "Business Success",
+            "pages": [
+              "en/success/case-studies",
+              "en/success/best-practices",
+              "en/success/roi-calculator",
+              "en/success/growth-strategies"
+            ]
+          },
+          {
+            "group": "Support & Troubleshooting",
+            "pages": [
+              "en/support/faq",
+              "en/support/troubleshooting",
+              "en/support/contact-support",
+              "en/support/video-tutorials"
             ]
           }
         ]
@@ -59,37 +109,87 @@
             "group": "البدء",
             "pages": [
               "ar/index",
+              "ar/why-chatwiser",
               "ar/quickstart",
-              "ar/platform-overview"
+              "ar/platform-overview",
+              "ar/pricing-plans"
             ]
           },
           {
-            "group": "واتساب للأعمال",
+            "group": "إعداد الحساب",
             "pages": [
-              "ar/whatsapp/setup",
-              "ar/whatsapp/automation",
-              "ar/whatsapp/templates",
-              "ar/whatsapp/campaigns",
-              "ar/whatsapp/analytics"
+              "ar/setup/account-creation",
+              "ar/setup/first-login",
+              "ar/setup/basic-configuration",
+              "ar/setup/team-management"
             ]
           },
           {
-            "group": "تكامل التجارة الإلكترونية",
+            "group": "مركز التواصل الذكي",
             "pages": [
-              "ar/ecommerce/setup",
-              "ar/ecommerce/products",
-              "ar/ecommerce/orders",
-              "ar/ecommerce/payments",
-              "ar/ecommerce/analytics"
+              "ar/communication/bot-manager",
+              "ar/communication/visual-flow-builder",
+              "ar/communication/ai-integration",
+              "ar/communication/comment-manager",
+              "ar/communication/live-chat",
+              "ar/communication/broadcasting"
             ]
           },
           {
-            "group": "أدوات التسويق",
+            "group": "مركز التجارة الإلكترونية",
             "pages": [
-              "ar/marketing/campaigns",
-              "ar/marketing/automation",
-              "ar/marketing/analytics",
-              "ar/marketing/integrations"
+              "ar/ecommerce/online-store",
+              "ar/ecommerce/product-management",
+              "ar/ecommerce/order-processing",
+              "ar/ecommerce/payment-gateways",
+              "ar/ecommerce/woocommerce-integration",
+              "ar/ecommerce/in-chat-shopping"
+            ]
+          },
+          {
+            "group": "مركز النشر",
+            "pages": [
+              "ar/publishing/social-posting",
+              "ar/publishing/content-calendar",
+              "ar/publishing/auto-posting",
+              "ar/publishing/multi-platform"
+            ]
+          },
+          {
+            "group": "مركز التكامل",
+            "pages": [
+              "ar/integrations/email-marketing",
+              "ar/integrations/sms-providers",
+              "ar/integrations/productivity-tools",
+              "ar/integrations/custom-api",
+              "ar/integrations/third-party"
+            ]
+          },
+          {
+            "group": "التحليلات والتقارير",
+            "pages": [
+              "ar/analytics/dashboard",
+              "ar/analytics/performance-metrics",
+              "ar/analytics/roi-tracking",
+              "ar/analytics/custom-reports"
+            ]
+          },
+          {
+            "group": "نجاح الأعمال",
+            "pages": [
+              "ar/success/case-studies",
+              "ar/success/best-practices",
+              "ar/success/roi-calculator",
+              "ar/success/growth-strategies"
+            ]
+          },
+          {
+            "group": "الدعم وحل المشاكل",
+            "pages": [
+              "ar/support/faq",
+              "ar/support/troubleshooting",
+              "ar/support/contact-support",
+              "ar/support/video-tutorials"
             ]
           }
         ]
@@ -105,11 +205,11 @@
             ]
           },
           {
-            "group": "WhatsApp API",
+            "group": "Communication API",
             "pages": [
-              "api-reference/whatsapp/messages",
-              "api-reference/whatsapp/templates",
-              "api-reference/whatsapp/media"
+              "api-reference/communication/messages",
+              "api-reference/communication/subscribers",
+              "api-reference/communication/flows"
             ]
           },
           {
@@ -118,6 +218,14 @@
               "api-reference/ecommerce/products",
               "api-reference/ecommerce/orders",
               "api-reference/ecommerce/customers"
+            ]
+          },
+          {
+            "group": "Analytics API",
+            "pages": [
+              "api-reference/analytics/metrics",
+              "api-reference/analytics/reports",
+              "api-reference/analytics/webhooks"
             ]
           }
         ]
@@ -165,8 +273,10 @@
     }
   },
   "seo": {
-    "defaultTitle": "Chatwiser Documentation - WhatsApp Business & E-commerce Platform",
-    "titleTemplate": "%s | Chatwiser Docs"
+    "defaultTitle": "chatwiser Documentation - Complete Business Automation Platform for Middle East",
+    "titleTemplate": "%s | chatwiser Docs",
+    "defaultDescription": "Complete guide to chatwiser - the all-in-one business automation platform. Learn how to boost sales by 150%, save 5+ hours daily, and achieve 90% cost savings with our Arabic-first solution.",
+    "keywords": ["chatwiser", "business automation", "WhatsApp Business", "Middle East CRM", "Arabic chatbot", "e-commerce automation", "social media management", "customer engagement", "sales automation", "marketing automation"]
   },
   "footerSocials": {
     "twitter": "https://twitter.com/chatwiser",
