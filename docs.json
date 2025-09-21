@@ -193,42 +193,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/authentication"
-            ]
-          },
-          {
-            "group": "Communication API",
-            "pages": [
-              "api-reference/communication/messages",
-              "api-reference/communication/subscribers",
-              "api-reference/communication/flows"
-            ]
-          },
-          {
-            "group": "E-commerce API",
-            "pages": [
-              "api-reference/ecommerce/products",
-              "api-reference/ecommerce/orders",
-              "api-reference/ecommerce/customers"
-            ]
-          },
-          {
-            "group": "Analytics API",
-            "pages": [
-              "api-reference/analytics/metrics",
-              "api-reference/analytics/reports",
-              "api-reference/analytics/webhooks"
-            ]
-          }
-        ]
       }
     ],
     "global": {
